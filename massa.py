@@ -43,7 +43,7 @@ class mainApp:
 
         tkinter.Label(userInfoFrame, text="Molekul:").grid(row=0, column=0)
 
-        self.strEntry = tkinter.Entry(userInfoFrame)
+        self.strEntry = tkinter.Entry(userInfoFrame, width=200)
         self.strEntry.grid(row=1, column=0, padx=10, pady=5)
 
         button = tkinter.Button(frame, text="Hitung", command=self.enterData)
